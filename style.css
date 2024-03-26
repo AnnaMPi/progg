@@ -1,0 +1,39 @@
+body {
+    background-image:url(/img/fons.png);
+    background-size: 1400px 1100px ;  
+    background-repeat:repeat;
+    
+    /* background-position-y: center;
+    background-position-x: center ; */
+    /* background-size: cover; */
+   
+}
+h1 {
+    font-size: 90px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.main_text {
+    color: rgb(45, 211, 23);
+    /* border: 2px solid white; */
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+}
+.main_dubText {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 30px;
+    padding-top: 100px;
+    color: rgb(151, 241, 123);
+    margin: auto;
+    text-align: center;
+    -webkit-text-stroke-color: rgb(15, 63, 13);
+    -webkit-text-stroke-width: 1px;
+}
+.virs_logo {
+    width: 170px;
+    position:absolute;
+    margin-left: 1300px;
+    margin-bottom: 500px;
+}
