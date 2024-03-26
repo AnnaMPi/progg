@@ -1,0 +1,24 @@
+body{
+    background-color: #3A4D39;
+}
+.kvad1{
+    background-color: #86a184;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-size: 36px
+}
+.kvad2{
+    background-color: #86a184;
+    border-radius: 10px;
+}
+.poga{
+    background-color: #ECE3CE;
+    border-color: #ECE3CE;
+    color: #000000;
+    border-radius: 10px;
+}
