@@ -37,3 +37,49 @@ h1 {
     margin-left: 1300px;
     margin-bottom: 500px;
 }
+
+.section-creator__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section-creator__button, .section-creator__input  {
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.section-creator__input {
+    width: 350px;
+}
+.st_poga {
+    width: 500px;
+}
+.st_poga {
+    padding-left: 300px;
+}
+.moving-plant {
+    z-index: 20;
+    background-repeat: no-repeat;
+    padding-left: 900px;
+    background-image:
+    url(img/virs_logo.png);
+    width: 200px;
+    height: 230px;
+    transform: rotate(-15deg);
+    animation-name: plant-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes plant-move {
+    from{transform: translateY(0px)};
+    to{transform: translateY(100px)};
+
+}
