@@ -54,23 +54,34 @@ h1 {
     width: 200px;
 }
 
+.section-creator__button {
+    background-color: #e6ffe7;
+    cursor: pointer;
+    border-radius: 8px;
+    transition:background-color 0.3s;
+    
+    
+}
+.section-creator__button:hover {
+    background-color: #45a049; 
+}
+
 .section-creator__input {
     width: 350px;
     margin-top: 20px;
 }
-.st_poga {
+/* .st_poga {
     width: 500px;
     padding-left: 300px;
     position: absolute;
     align-items:center;
     /* justify-content: center; */
     
-    
-}
+
 
 .moving-plant {
     position: relative; 
-    padding-left: 400px;
+    right: 200px;
     z-index: 20;
     background-repeat: no-repeat;
     padding-left: 900px;
@@ -89,4 +100,23 @@ h1 {
     from{transform: translateY(0px)};
     to{transform: translateY(100px)};
 
+}
+.form_button {
+    background-color: rgb(2, 72, 36);
+    border-radius: 25px;
+    font-size: 100px;
+    width: 500px;
+    padding-left: 100px;
+    position: absolute;
+    align-items:center;
+    padding: 50px 40px;
+    color: navy;
+    transition: .2s all ease-out;
+    left: 500px;
+    bottom: 150px;
+}
+.form_button:hover {
+    color: red;
+    background-color:#45a049;
+    margin-right: 50px;
 }
