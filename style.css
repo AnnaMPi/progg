@@ -1,27 +1,48 @@
-body{
-    background-color: #3A4D39;
+body 
+{
+background-color: #3A4D39;
 }
-.kvad1{
-    padding: 20px;
-    background-color: #86a184;
-    border-radius: 10px;
+.pud_text{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sec_col{
+    align-items: center;
+    justify-content: center;
     box-shadow: 5px 5px 5px #0000005d;
-}
-h1{
-    text-align: center;
-    font-size: 50px;
-}
-p{
-    font-size: 36px
-}
-.kvad2{
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    background-color: #86a184;
+    font-size: 36px;
+    background-color: #739072;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #0000005d;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+#img1 {
+    width: 40px;
+    display: none;
+}
+#img2 {
+    width: 100px;
+    display: none;
+}
+.tvertnes{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 300px;
+}
+.sos{
+    margin: 200px;
+  
+}
+#but{
+    background-color: transparent;
+    border: none;
+    cursor:pointer;      
 }
 .poga{
     width: 130px;
@@ -34,27 +55,6 @@ p{
     position: absolute;
     right: 10px;
 }
-.div1{
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.img1{
-    position: absolute;
-    right: 380px;
-    width: 270px;
-    height: 400px;
-}
-.img2{
-    position: absolute;
-    right: 530px;
-    top: 450px;
-    width: 400px;
-    height: 350px;
-}
-.pls{
-    padding: 170px;
-}
-.help{
+.help1{
     padding: 50px;
 }
