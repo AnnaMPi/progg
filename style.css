@@ -20,8 +20,11 @@ background-color: #3A4D39;
     flex-direction: row;
     column-gap: 100px;
 }
-.pudele {
-    width: 50px;
+.img1{
+    width: 40px;
+}
+.img2{
+    width: 100px;
 }
 .tvertnes{
     align-items: center;
@@ -34,8 +37,22 @@ background-color: #3A4D39;
     margin: 200px;
   
 }
-button{
+.but{
     background-color: transparent;
     border: none;
     cursor:pointer;      
+}
+.poga{
+    width: 130px;
+    height: 40px;
+    background-color: #ECE3CE;
+    border-color: #ECE3CE;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #0000005d;
+    position: absolute;
+    right: 10px;
+}
+.help1{
+    padding: 50px;
 }
