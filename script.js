@@ -1,7 +1,3 @@
-function addext() {
-    infoText.innerHTML =  `Sveiki ${titleCreator.value}`; // infoText vietā vajadzētu būt annas vieta
-
-}
 document.getElementById("goToPage2").onclick = function() {
     window.location.href = 'index (1).html';
 };
