@@ -58,3 +58,9 @@ p{
 .help{
     padding: 50px;
 }
+.poga_chose {
+    border-radius: 8px;
+    font-size: large;
+    background-color: #ffd97f;
+    padding: 7px 5px;
+}
